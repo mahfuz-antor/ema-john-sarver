@@ -10,10 +10,6 @@ require('dotenv').config()
 
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.cvjjn.mongodb.net/${process.env.DB_NAME}?retryWrites=true&w=majority`;
 
-console.log(process.env.DB_USER);
-console.log(process.env.DB_PASS);
-console.log(process.env.DB_NAME);
-
 
 // const uri = `mongodb+srv://${process.env.DB_User}:${process.env.DB_PASS}@cluster0.29dw1.mongodb.net/${process.env.DB_Name}?retryWrites=true&w=majority`;
 
